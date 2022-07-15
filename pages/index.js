@@ -83,7 +83,7 @@ const Home = () => (
           Completed the Degree&apos;s Program in Internet Technology in Asia Pacific University
         </BioSection>
         <BioSection>
-          <BioYear>2017</BioYear>
+          <BioYear>2017 - 2021</BioYear>
           Web Programmer @ Patroids
         </BioSection>
         <BioSection>
