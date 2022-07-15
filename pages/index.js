@@ -9,8 +9,6 @@ import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
