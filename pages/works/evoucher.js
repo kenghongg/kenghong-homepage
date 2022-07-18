@@ -16,7 +16,7 @@ const Work = () => (
       <BeginMeta>Frontend Development</BeginMeta>
 
       <P>An eVoucher that consist of QR code which can be scanned on the retail outlets to receive a discount.</P>
-      <P>
+      <P> 
         The UI design is based on the physical voucher layout. Different states of the eVoucher is included such as redeemed and expired. Also, Rotating flower animation is done in CSS Animation. Purpose of the animation is to prevent user to use screenshot to show the QR code.
       </P>
 
