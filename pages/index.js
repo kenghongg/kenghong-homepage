@@ -58,7 +58,7 @@ const Home = () => (
         <Paragraph>
           Keng Hong is a full time UI/UX Engineer in Singapore with a strong sense for aesthetics and interaction that passionate in
           creating interactive UI and frontend development. He is a detail-oriented professional with 5+ years of experience and a proven
-          knowledge of web development, web page content, programming and UI/UX designing.
+          knowledge of web development, web page content, programming and UI/UX develop with design.
         </Paragraph>
 
         <Box align="center" my={4}>
