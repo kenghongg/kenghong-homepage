@@ -56,9 +56,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Keng Hong is a full time UI/UX Engineer in Singapore with a strong sense for aesthetics and interaction that passionate in
-          creating interactive UI and frontend development. He is a detail-oriented professional with 5+ years of experience and a proven
-          knowledge of web development, web page content, programming and UI/UX develop with design.
+          Keng Hong is a full time UI/UX Engineer based in Singapore that specializing in UI/UX development and design system to improve
+          consistency. Meanwhile, he is passionate in creating interactive UI and frontend development. He loves seeing the impact that
+          created with his works.
         </Paragraph>
 
         <Box align="center" my={4}>
@@ -76,11 +76,11 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2016</BioYear>
-          Web Developer (Internship) @ Appleseeds MY
+          Web Developer (Internship) @ Appleseeds Creativity
         </BioSection>
         <BioSection>
           <BioYear>2017</BioYear>
-          Completed the Degree&apos;s Program in Internet Technology in Asia Pacific University
+          Completed Internet Technology Degree&apos;s Program in Asia Pacific University
         </BioSection>
         <BioSection>
           <BioYear>2017 - 2021</BioYear>
