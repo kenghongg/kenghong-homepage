@@ -56,9 +56,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Keng Hong is a full time UI/UX Engineer based in Singapore that specializing in UI/UX development and design system to improve
-          consistency. Meanwhile, he is passionate in creating interactive UI and frontend development. He loves seeing the impact that
-          created with his works.
+          Keng Hong is a full time UI/UX Engineer based in Singapore that specializing in creating interactive UI/UX and frontend
+          development. He loves designing as little design as possible and make it easy to use. He believes that every designer should
+          understand a bit of coding, and every developer should know what design is all about.
         </Paragraph>
 
         <Box align="center" my={4}>
