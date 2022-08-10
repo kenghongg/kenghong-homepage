@@ -1,10 +1,14 @@
 import { Box, Container } from '@chakra-ui/react'
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
+import ReactGA from 'react-ga'
 
 import Footer from '../footer'
 import NavBar from '../navbar'
 import VoxelBearLoader from '../voxel-bear-loader'
+
+const TRACKING_ID = 'G-EX8VZX7784' // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID)
 
 const LazyVoxelBear = dynamic(() => import('../voxel-bear'), {
   ssr: false,

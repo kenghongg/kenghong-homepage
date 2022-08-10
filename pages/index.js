@@ -2,6 +2,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import { Box, Button, chakra, Container, Heading, Link, List, ListItem, SimpleGrid, useColorModeValue } from '@chakra-ui/react'
 import Image from 'next/image'
 import NextLink from 'next/link'
+import { AiTwotoneMail } from 'react-icons/ai'
 import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 
 import { BioSection, BioYear } from '../components/bio'
@@ -101,13 +102,20 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          GitHub
+          Contact
         </Heading>
         <List>
           <ListItem>
             <Link href="https://github.com/kenghongg" target="_blank">
               <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoGithub />}>
                 @kenghongg
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="mailto:kenghongg@outlook.com">
+              <Button variant="ghost" colorScheme="teal" leftIcon={<AiTwotoneMail />}>
+                kenghongg@outlook.com
               </Button>
             </Link>
           </ListItem>
