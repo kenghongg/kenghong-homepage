@@ -6,7 +6,7 @@ import P from '../../components/paragraph'
 import { BeginMeta, Meta, Title, WorkImage } from '../../components/work'
 
 const Work = () => (
-  <Layout title="iSoft Company Website">
+  <Layout title="eVoucher">
     <Container>
       <Title>
         eVoucher <Badge>2022</Badge>

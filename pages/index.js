@@ -102,9 +102,18 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Contact
+          Get in touch
         </Heading>
-        <List>
+
+        <Box align="left" my={4}>
+          <NextLink href="mailto:kenghongg@outlook.com" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              kenghongg@outlook.com
+            </Button>
+          </NextLink>
+        </Box>
+
+        {/*<List>
           <ListItem>
             <Link href="https://github.com/kenghongg" target="_blank">
               <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoGithub />}>
@@ -119,7 +128,7 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-        </List>
+</List>*/}
       </Section>
     </Container>
   </Layout>

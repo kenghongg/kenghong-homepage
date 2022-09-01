@@ -3,11 +3,18 @@ import { Container, Divider, Heading, SimpleGrid } from '@chakra-ui/react'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
+import thumbEmailTemplates from '../public/images/works/emailtemplates_eyecatch.png'
 import thumbEvoucher from '../public/images/works/evoucher_eyecatch.png'
 import thumbFms from '../public/images/works/fms_eyecatch.png'
 import thumbHRSystem from '../public/images/works/hrsystem_eyecatch.png'
 import thumbIsoftCompanyWebsite from '../public/images/works/isoftcompanywebsite_eyecatch.png'
 import thumbSelfCheckoutKiosk from '../public/images/works/selfcheckoutkiosk_eyecatch.png'
+import thumbSonyAlpha from '../public/images/works/sonyalpha_eyecatch.png'
+import thumbSonyCameraMicrophones from '../public/images/works/sonycameramicrophones_eyecatch.png'
+import thumbSonyDigitalCameraZV1 from '../public/images/works/sonydigitalcamerazv1_eyecatch.png'
+import thumbSonyILCE7c from '../public/images/works/sonyilce7c_eyecatch.png'
+import thumbSonyPromotions from '../public/images/works/sonypromotions_eyecatch.png'
+import thumbSonyVideo from '../public/images/works/sonyvideo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -44,6 +51,59 @@ const Works = () => (
         <Section>
           <WorkGridItem id="fms" title="Fleet Management System" thumbnail={thumbFms}>
             For fleet managers to monitor fleet activities and make decisions about asset management, dispatch and routing
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <hr />
+
+      <Heading as="h4" fontSize={16} mb={4} mt={6}>
+        Email Templates
+      </Heading>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="emailtemplates" title="Email Newsletter Templates" thumbnail={thumbEmailTemplates}>
+            Send informational and product-focused content via email to subscriber list that comprises potential and existing customers.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+      <hr />
+
+      <Heading as="h4" fontSize={16} mb={4} mt={6}>
+        Design to Codes
+      </Heading>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="sonyalpha" title="Sony Alpha" thumbnail={thumbSonyAlpha}>
+            Sony Microsite
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="sonyilce7c" title="Sony ILCE 7C" thumbnail={thumbSonyILCE7c}>
+            Sony Microsite
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="sonydigitalcamerazv1" title="Sony Digital Camera ZV-1" thumbnail={thumbSonyDigitalCameraZV1}>
+            Sony Microsite
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="sonypromotions" title="Sony Promotions" thumbnail={thumbSonyPromotions}>
+            Sony Microsite | Progressive Web Apps
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="sonycameramicrophones" title="Sony Camera Microphones" thumbnail={thumbSonyCameraMicrophones}>
+            Sony Microsite
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="sonyvideo" title="Sony | Video with Sony" thumbnail={thumbSonyVideo}>
+            Sony Microsite
           </WorkGridItem>
         </Section>
       </SimpleGrid>
