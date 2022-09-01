@@ -1,4 +1,6 @@
-import { Container, Divider, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Box, Button, Container, Divider, Heading, SimpleGrid } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
@@ -107,6 +109,20 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Get in touch
+        </Heading>
+
+        <Box align="left" my={4}>
+          <NextLink href="mailto:kenghongg@outlook.com" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              kenghongg@outlook.com
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
     </Container>
   </Layout>
 )
