@@ -1,5 +1,4 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { AspectRatio, Badge, Box, Container, Flex, Link, List, ListItem, Text, UnorderedList, useColorModeValue } from '@chakra-ui/react'
+import { Badge, Box, Container, Flex, List, ListItem, Text, UnorderedList, useColorModeValue } from '@chakra-ui/react'
 
 import Layout from '../../components/layouts/article'
 import P from '../../components/paragraph'
@@ -56,7 +55,7 @@ const Work = () => (
             UI PROBLEM (Before)
           </Text>
           <UnorderedList mt={2}>
-            <ListItem>Sharp corners are less attractive and harder for visual processing compared to curved corners.</ListItem> 
+            <ListItem>Sharp corners are less attractive and harder for visual processing compared to curved corners.</ListItem>
             <ListItem>Boring icon and form format style</ListItem>
             <ListItem>Outdated looking UI</ListItem>
           </UnorderedList>

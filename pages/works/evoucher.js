@@ -1,5 +1,5 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { AspectRatio, Badge, Container, Link, List, ListItem } from '@chakra-ui/react'
+import { Badge, Container, Link, List, ListItem } from '@chakra-ui/react'
 
 import Layout from '../../components/layouts/article'
 import P from '../../components/paragraph'
@@ -16,8 +16,10 @@ const Work = () => (
       <BeginMeta>Frontend Development</BeginMeta>
 
       <P>An eVoucher that consist of QR code which can be scanned on the retail outlets to receive a discount.</P>
-      <P> 
-        The UI design is based on the physical voucher layout. Different states of the eVoucher is included such as redeemed and expired. Also, Rotating flower animation is done in CSS Animation. Purpose of the animation is to prevent user to use screenshot to show the QR code.
+      <P>
+        The UI design is based on the physical voucher layout. Different states of the eVoucher is included such as redeemed and expired.
+        Also, Rotating flower animation is done in CSS Animation. Purpose of the animation is to prevent user to use screenshot to show the
+        QR code.
       </P>
 
       <List ml={4} my={4}>
@@ -25,7 +27,8 @@ const Work = () => (
           <Meta>Preview site</Meta>
           <span>
             <Link href="https://ss-voucher-staging.netlify.app/voucher-02.html" target="_blank">
-              Preview<ExternalLinkIcon mx="2px" />
+              Preview
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>

@@ -1,6 +1,6 @@
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import { Box, Button, Container, Divider, Heading, SimpleGrid } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'

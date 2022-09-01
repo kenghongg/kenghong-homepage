@@ -1,9 +1,7 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { AspectRatio, Badge, Box, Button, Container, Flex, Input, Link, List, ListItem, SimpleGrid, Text, useClipboard } from '@chakra-ui/react'
+import { Badge, Box, Button, Container, Input, List, ListItem, useClipboard } from '@chakra-ui/react'
 import { useState } from 'react'
 
 import Layout from '../../components/layouts/article'
-import P from '../../components/paragraph'
 import { BeginMeta, Meta, Title, WorkImage } from '../../components/work'
 
 const Work = () => {

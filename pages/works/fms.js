@@ -1,5 +1,4 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { AspectRatio, Badge, Box, Center, Container, Flex, Heading, Link, List, ListItem, Text, UnorderedList, useColorModeValue } from '@chakra-ui/react'
+import { Badge, Box, Container, Flex, Heading, List, ListItem } from '@chakra-ui/react'
 
 import Layout from '../../components/layouts/article'
 import P from '../../components/paragraph'
@@ -17,7 +16,10 @@ const Work = () => (
       <BeginMeta>Frontend Development</BeginMeta>
 
       <P>A system for fleet managers to monitor fleet activities and make decisions about asset management, dispatch and routing.</P>
-      <P>Adapting with Material UI design with light mode and dark mode. Dashboard designed in short and simple where user can view every detail at a glance.</P>
+      <P>
+        Adapting with Material UI design with light mode and dark mode. Dashboard designed in short and simple where user can view every
+        detail at a glance.
+      </P>
 
       <List ml={4} my={4}>
         <ListItem>
