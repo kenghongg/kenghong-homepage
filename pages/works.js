@@ -81,7 +81,7 @@ const Works = () => (
       <hr />
 
       <Heading as="h4" fontSize={16} mb={4} mt={6}>
-        Design to Codes
+        Convert Design to Codes
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
