@@ -5,6 +5,7 @@ import NextLink from 'next/link'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
+import thumbAssetMonitoring from '../public/images/works/assetmonitoring_eyecatch.png'
 import thumbEmailTemplates from '../public/images/works/emailtemplates_eyecatch.png'
 import thumbEvoucher from '../public/images/works/evoucher_eyecatch.png'
 import thumbFms from '../public/images/works/fms_eyecatch.png'
@@ -53,6 +54,12 @@ const Works = () => (
         <Section>
           <WorkGridItem id="fms" title="Fleet Management System" thumbnail={thumbFms}>
             For fleet managers to monitor fleet activities and make decisions about asset management, dispatch and routing
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="assetmonitoring" title="Asset Monitoring" thumbnail={thumbAssetMonitoring}>
+            Access reliable real time temperature reading with the solution to monitor operational environment
           </WorkGridItem>
         </Section>
       </SimpleGrid>
