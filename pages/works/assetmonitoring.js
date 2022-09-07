@@ -1,5 +1,5 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Badge, Box, Container, Flex, Heading, List, ListItem, Text, UnorderedList, useColorModeValue, Link } from '@chakra-ui/react'
+import { Badge, Box, Container, Flex, Heading, Link, List, ListItem, Text, UnorderedList, useColorModeValue } from '@chakra-ui/react'
 
 import Layout from '../../components/layouts/article'
 import P from '../../components/paragraph'

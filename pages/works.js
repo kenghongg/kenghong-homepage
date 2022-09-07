@@ -18,6 +18,7 @@ import thumbSonyDigitalCameraZV1 from '../public/images/works/sonydigitalcameraz
 import thumbSonyILCE7c from '../public/images/works/sonyilce7c_eyecatch.png'
 import thumbSonyPromotions from '../public/images/works/sonypromotions_eyecatch.png'
 import thumbSonyVideo from '../public/images/works/sonyvideo_eyecatch.png'
+import thumbStm from '../public/images/works/stm_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -60,6 +61,12 @@ const Works = () => (
         <Section>
           <WorkGridItem id="assetmonitoring" title="Asset Monitoring" thumbnail={thumbAssetMonitoring}>
             Access reliable real time temperature reading with the solution to monitor operational environment
+          </WorkGridItem>
+        </Section>
+
+        <Section>
+          <WorkGridItem id="stm" title="$tm - Simple Teller Machine" thumbnail={thumbStm}>
+            $tm machines are topped-up with cash from supermarkets’ sales, and users can withdraw money using their ATM cards
           </WorkGridItem>
         </Section>
       </SimpleGrid>
