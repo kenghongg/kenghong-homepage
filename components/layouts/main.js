@@ -11,6 +11,8 @@ const LazyVoxelBear = dynamic(() => import('../voxel-bear'), {
   loading: () => <VoxelBearLoader />
 })
 
+// const LazyVoxelBear = () => console.log('../voxel-bear')
+
 const Main = ({ children, router }) => {
   return (
     <Box as="main" pb={8}>

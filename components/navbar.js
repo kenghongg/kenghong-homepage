@@ -98,7 +98,7 @@ const Navbar = props => {
                 </NextLink>
                 {/*<NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
-  </NextLink>*/}
+                </NextLink>*/}
                 <MenuItem
                   as={Link}
                   href="https://github.com/kenghongg/kenghong-homepage"
