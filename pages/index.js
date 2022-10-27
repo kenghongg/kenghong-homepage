@@ -5,7 +5,7 @@ import NextLink from 'next/link'
 import { AiTwotoneMail } from 'react-icons/ai'
 import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 
-import { BioSection, BioYear } from '../components/bio'
+import { BioDesc, BioSection, BioYear } from '../components/bio'
 import { GridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
@@ -18,6 +18,7 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
+      {/*
       <Box
         borderRadius="lg"
         mb={6}
@@ -29,13 +30,19 @@ const Home = () => (
         Hello, I&apos;m an UI/UX Engineer based in Singapore!
       </Box>
 
-      <Box display={{ md: 'flex' }}>
+      I'm passionate about web technology and focused on the
+      user experience. I aim to create web experiences that are
+      surprising, exciting and memorable on top of that.
+      */}
+
+      <Box display={{ md: 'flex' }} textAlign="center">
         <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title" mb={2}>
-            Keng Hong
+          <Heading as="h2" variant="page-title" fontSize={54} mb={2}>
+            <span className="title-highlight">Keng</span> Hong
           </Heading>
           <p>Frontend Developer | UI/UX Designer </p>
         </Box>
+        {/*
         <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} textAlign="center">
           <Box
             borderColor="whiteAlpha.800"
@@ -50,64 +57,112 @@ const Home = () => (
             <ProfileImage src="/images/profile-pic.jpg" alt="Profile image" borderRadius="full" width="100%" height="100%" />
           </Box>
         </Box>
+    */}
+      </Box>
+
+      <Box align="center" mt={4} mb={8}>
+        <NextLink href="/works" passHref scroll={false}>
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
+            My portfolio
+          </Button>
+        </NextLink>
       </Box>
 
       <Section delay={0.1}>
-        <Heading as="h3" variant="section-title">
-          Work
-        </Heading>
-        <Paragraph>
-          Keng Hong is a full time UI/UX Engineer based in Singapore that specializing in creating interactive UI/UX and frontend
-          development. He loves designing as little design as possible and make it easy to use. He believes that every designer should
-          understand a bit of coding, and every developer should know what design is all about.
-        </Paragraph>
-
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
+        <Box display="flex" gap="4">
+          <Box mt={0} width="50px" flexShrink={0}>
+            <Heading as="h3" variant="section-title" className="title-highlight" mt={0}>
+              Bio
+            </Heading>
+          </Box>
+          <Paragraph>
+            Keng Hong is a full time UI/UX Engineer based in Singapore that specializing in creating interactive UI/UX and frontend
+            development. He loves designing as little design as possible and make it easy to use. He believes that every designer should
+            understand a bit of coding, and every developer should know what design is all about.
+          </Paragraph>
         </Box>
       </Section>
 
+      
+      {/*
       <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>2016</BioYear>
-          Web Developer (Internship) @ Appleseeds Creativity
-        </BioSection>
-        <BioSection>
-          <BioYear>2017</BioYear>
-          Completed Internet Technology Degree&apos;s Program in Asia Pacific University
-        </BioSection>
-        <BioSection>
-          <BioYear>2017 - 2021</BioYear>
-          Web Programmer @ Patroids
-        </BioSection>
-        <BioSection>
-          <BioYear>2021 to present</BioYear>
-          Software Engineer (UI/UX) @ Sheng Siong
-        </BioSection>
+        <Box display="flex" gap="4">
+          <Box mt={0} width="50px" flexShrink={0}>
+            <Heading as="h3" variant="section-title" className="title-highlight" mt={0}>
+              Bio
+            </Heading>
+          </Box>
+
+          <Box>
+            <BioSection>
+              <BioYear>2016</BioYear>
+              <BioDesc>Web Developer (Internship) @ Appleseeds Creativity</BioDesc>
+            </BioSection>
+            <BioSection>
+              <BioYear>2017</BioYear>
+              <BioDesc>Completed Internet Technology Degree&apos;s Program in Asia Pacific University</BioDesc>
+            </BioSection>
+            <BioSection>
+              <BioYear>2017 - 2021</BioYear>
+              <BioDesc>Web Programmer @ Patroids Creative Works</BioDesc>
+            </BioSection>
+            <BioSection>
+              <BioYear>2021 to present</BioYear>
+              <BioDesc>Software Engineer (UI/UX) @ Sheng Siong</BioDesc>
+            </BioSection>
+          </Box>
+        </Box>
+      </Section>
+  */}
+
+      {/*
+      <Section delay={0.3}>
+        <Box display="flex" gap="4">
+          <Box mt={0} width="50px" flexShrink={0}>
+            <Heading as="h3" variant="section-title" className="title-highlight" mt={0}>
+              I ♥
+            </Heading>
+          </Box>
+
+          <Box>
+            <Paragraph>Darts, Music, Stephen Chow's Movie, Dota 2, New Technology</Paragraph>
+          </Box>
+        </Box>
+      </Section>
+*/}
+
+{/*
+      <Section delay={0.3}>
+        <Box display="flex" gap={6}>
+          <Box>
+            <NextLink href="/works" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
+                My portfolio
+              </Button>
+            </NextLink>
+          </Box>
+          <Box>
+            <NextLink href="mailto:kenghongg@outlook.com" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
+                kenghongg@outlook.com
+              </Button>
+            </NextLink>
+          </Box>
+        </Box>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>Darts, Music, Stephen Chow's Movie, Dota 2, New Technology</Paragraph>
-      </Section>
+*/}
 
       <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Get in touch
-        </Heading>
+        <Box width="130px">
+          <Heading as="h3" variant="section-title" className="title-highlight">
+            Get in touch
+          </Heading>
+        </Box>
 
         <Box align="left" my={4}>
           <NextLink href="mailto:kenghongg@outlook.com" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
               kenghongg@outlook.com
             </Button>
           </NextLink>
@@ -116,14 +171,14 @@ const Home = () => (
         {/*<List>
           <ListItem>
             <Link href="https://github.com/kenghongg" target="_blank">
-              <Button variant="ghost" colorScheme="teal" leftIcon={<IoLogoGithub />}>
+              <Button variant="ghost" colorScheme="blue" leftIcon={<IoLogoGithub />}>
                 @kenghongg
               </Button>
             </Link>
           </ListItem>
           <ListItem>
             <Link href="mailto:kenghongg@outlook.com">
-              <Button variant="ghost" colorScheme="teal" leftIcon={<AiTwotoneMail />}>
+              <Button variant="ghost" colorScheme="blue" leftIcon={<AiTwotoneMail />}>
                 kenghongg@outlook.com
               </Button>
             </Link>
