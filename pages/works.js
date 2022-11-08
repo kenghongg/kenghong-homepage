@@ -131,7 +131,7 @@ const Works = () => (
 
         <Box align="left" my={4}>
           <NextLink href="mailto:kenghongg@outlook.com" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
               kenghongg@outlook.com
             </Button>
           </NextLink>
