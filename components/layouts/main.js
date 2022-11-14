@@ -18,7 +18,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Online Portfolio of Keng Hong, UIUX Engineer, born in Malaysia, based in Singapore" />
+        <meta name="description" content="Online Portfolio of Keng Hong, UIUX Engineer, based in Singapore that specializing in creating interactive UI/UX and frontend development." />
         <meta name="author" content="Keng Hong" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
