@@ -31,7 +31,7 @@ const Main = ({ children, router }) => {
         <meta name="og:title" content="Keng Hong" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://www.hokenghong.com/card.png" />
-        <title>Keng Hong - Homepage</title>
+        <title>Keng Hong - Portfolio</title>
       </Head>
 
       <NavBar path={router.asPath} />
