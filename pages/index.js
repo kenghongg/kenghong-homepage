@@ -60,10 +60,22 @@ const Home = () => (
     */}
       </Box>
 
-      <Box align="center" mt={4} mb={8}>
+      {/*<Box align="center" mt={4} mb={8}>
         <NextLink href="/works" passHref scroll={false}>
           <Button rightIcon={<ChevronRightIcon />} colorScheme="blue">
-            My portfolio
+            Find out more
+          </Button>
+        </NextLink>
+  </Box>*/}
+
+      <Box align="center" mt={4} mb={8}>
+        <NextLink href="/works" passHref scroll={false}>
+          <Button className="portfolio-btn">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            View Portfolio
           </Button>
         </NextLink>
       </Box>
@@ -83,7 +95,6 @@ const Home = () => (
         </Box>
       </Section>
 
-      
       {/*
       <Section delay={0.2}>
         <Box display="flex" gap="4">
@@ -131,7 +142,7 @@ const Home = () => (
       </Section>
 */}
 
-{/*
+      {/*
       <Section delay={0.3}>
         <Box display="flex" gap={6}>
           <Box>
