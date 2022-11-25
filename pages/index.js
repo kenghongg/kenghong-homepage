@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }} textAlign="center">
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title" fontSize={54} mb={2}>
-            <span className="title-highlight">Keng</span> Hong
+            <span className="brush-title">Keng Hong</span>
           </Heading>
           <p>Frontend Developer | UI/UX Designer </p>
         </Box>
@@ -83,7 +83,7 @@ const Home = () => (
       <Section delay={0.1}>
         <Box display="flex" gap="4">
           <Box mt={0} width="50px" flexShrink={0}>
-            <Heading as="h3" variant="section-title" className="title-highlight" mt={0}>
+            <Heading as="h3" variant="section-title" className="brush-list" mt={0}>
               Bio
             </Heading>
           </Box>
@@ -99,7 +99,7 @@ const Home = () => (
       <Section delay={0.2}>
         <Box display="flex" gap="4">
           <Box mt={0} width="50px" flexShrink={0}>
-            <Heading as="h3" variant="section-title" className="title-highlight" mt={0}>
+            <Heading as="h3" variant="section-title" className="brush-list" mt={0}>
               Bio
             </Heading>
           </Box>
@@ -130,7 +130,7 @@ const Home = () => (
       <Section delay={0.3}>
         <Box display="flex" gap="4">
           <Box mt={0} width="50px" flexShrink={0}>
-            <Heading as="h3" variant="section-title" className="title-highlight" mt={0}>
+            <Heading as="h3" variant="section-title" className="brush-list" mt={0}>
               I ♥
             </Heading>
           </Box>
@@ -166,7 +166,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Box width="130px">
-          <Heading as="h3" variant="section-title" className="title-highlight">
+          <Heading as="h3" variant="section-title" className="brush-list">
             Get in touch
           </Heading>
         </Box>
